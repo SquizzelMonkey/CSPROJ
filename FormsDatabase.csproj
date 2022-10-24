@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{745D5457-841A-4118-97C2-E7B21B7D1847}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FormsDatabase</RootNamespace>
+    <AssemblyName>FormsDatabase</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Access, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.OutlookViewCtl, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Outlook, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Outlook.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTaskForm.Designer.cs">
+      <DependentUpon>AddTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addtaskset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addtaskset.Designer.cs">
+      <DependentUpon>Addtaskset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AmendStudentTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmendStudentTasks.Designer.cs">
+      <DependentUpon>AmendStudentTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AmendUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmendUserForm.Designer.cs">
+      <DependentUpon>AmendUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompletedTask.cs" />
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="EnTask.cs" />
+    <Compile Include="PassChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassChange.Designer.cs">
+      <DependentUpon>PassChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveTask.Designer.cs">
+      <DependentUpon>RemoveTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveTaskSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveTaskSet.Designer.cs">
+      <DependentUpon>RemoveTaskSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs" />
+    <Compile Include="Rewards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rewards.Designer.cs">
+      <DependentUpon>Rewards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeeComplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeeComplete.Designer.cs">
+      <DependentUpon>SeeComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT_FORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT_FORM.Designer.cs">
+      <DependentUpon>STUDENT_FORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveUser.Designer.cs">
+      <DependentUpon>RemoveUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TasksControllerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TasksControllerForm.Designer.cs">
+      <DependentUpon>TasksControllerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskSet.cs" />
+    <Compile Include="StaffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffForm.Designer.cs">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskSetsControllerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskSetsControllerForm.Designer.cs">
+      <DependentUpon>TaskSetsControllerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnsubmitCompTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnsubmitCompTask.Designer.cs">
+      <DependentUpon>UnsubmitCompTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsercontrolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsercontrolForm.Designer.cs">
+      <DependentUpon>UsercontrolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VeiwUsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VeiwUsersForm.Designer.cs">
+      <DependentUpon>VeiwUsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUserForm.Designer.cs">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="WipeUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WipeUser.Designer.cs">
+      <DependentUpon>WipeUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WipeYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WipeYear.Designer.cs">
+      <DependentUpon>WipeYear.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddTaskForm.resx">
+      <DependentUpon>AddTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addtaskset.resx">
+      <DependentUpon>Addtaskset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUserForm.resx">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AmendStudentTasks.resx">
+      <DependentUpon>AmendStudentTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AmendUserForm.resx">
+      <DependentUpon>AmendUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassChange.resx">
+      <DependentUpon>PassChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveTask.resx">
+      <DependentUpon>RemoveTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveTaskSet.resx">
+      <DependentUpon>RemoveTaskSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveUser.resx">
+      <DependentUpon>RemoveUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rewards.resx">
+      <DependentUpon>Rewards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeeComplete.resx">
+      <DependentUpon>SeeComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT_FORM.resx">
+      <DependentUpon>STUDENT_FORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffForm.resx">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TasksControllerForm.resx">
+      <DependentUpon>TasksControllerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskSetsControllerForm.resx">
+      <DependentUpon>TaskSetsControllerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnsubmitCompTask.resx">
+      <DependentUpon>UnsubmitCompTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsercontrolForm.resx">
+      <DependentUpon>UsercontrolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VeiwUsersForm.resx">
+      <DependentUpon>VeiwUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WipeUser.resx">
+      <DependentUpon>WipeUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WipeYear.resx">
+      <DependentUpon>WipeYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Salt.txt" />
+    <Content Include="TrackerDatabase.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="__TemplateIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

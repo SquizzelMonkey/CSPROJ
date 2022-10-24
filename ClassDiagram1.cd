@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
+  <Class Name="FormsDatabase.AddTaskForm" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAgABAQAACAAAACAAAICAAAEEAAAAAAAAA=</HashCode>
+      <FileName>AddTaskForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.Addtaskset" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAAACAAAACAIAIAAAAEEAAAAAAAAA=</HashCode>
+      <FileName>Addtaskset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.AddUserForm" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAApEAAACAAIQCYAWAACAAAAAAAIAAECA=</HashCode>
+      <FileName>AddUserForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.CompletedTask" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAgAgAAAEAAAAAgAAAgAAAAAQACABAAAAAA=</HashCode>
+      <FileName>CompletedTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.DataAccess">
+    <Position X="14" Y="1.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>YSAIgIIAABkQAAgMaAAEAAQAIIYAAIQwAAABgDEAAQA=</HashCode>
+      <FileName>DataAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.EnTask" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACACABAAgAAABAAAAAAAAAgAYAAAgAAABAAAAAA=</HashCode>
+      <FileName>EnTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.RemoveTask" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIAAACAAAACAAAAAAAAAEAgBAAAAAA=</HashCode>
+      <FileName>RemoveTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.RemoveTaskSet" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Members" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BCAAAAUAAiAAABIAAACACAASAAAIAAAAEEAABAEAAAA=</HashCode>
+      <FileName>RemoveTaskSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.RemoveUser" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACUAACAAABIAABCAAABCoAAYAAAAMGAAAAEAAAA=</HashCode>
+      <FileName>RemoveUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.Report" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.SeeComplete" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAQCAAABIAABCAAAACAABAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>SeeComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.SplashScreen" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQQACAAABAAAACAAAACAAAAAAAAAAAAAABAACI=</HashCode>
+      <FileName>SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.StaffForm">
+    <Position X="0.5" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAgAQAAAAACAAAAAAAAA=</HashCode>
+      <FileName>StaffForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.STUDENT_FORM" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAgABEQAACBAAECAAA8AAAAEHAABAEUAIA=</HashCode>
+      <FileName>STUDENT_FORM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.TasksControllerForm" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAUAACAgAAIQgBCAAAACAMA4ACAAAHAMAAAAAAA=</HashCode>
+      <FileName>TasksControllerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.TaskSet" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAQACABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>TaskSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.TaskSetsControllerForm" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAUAAiAAABIAABCAAAACAAAZAAAAAGACAAAIAAA=</HashCode>
+      <FileName>TaskSetsControllerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.UnsubmitCompTask" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAUAACAAABAAAACAAAACAAAIAAAABEAABAAAAAA=</HashCode>
+      <FileName>UnsubmitCompTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.User" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAKAAAggAQAAAABAAAABAAICAAAAAAACAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FormsDatabase.VeiwUsersForm" Collapsed="true">
+    <Position X="1" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AgAABCAAACABEBIQKACAAAwCAMErgCgAAPQPAAAAAAA=</HashCode>
+      <FileName>VeiwUsersForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
